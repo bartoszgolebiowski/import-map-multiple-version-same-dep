@@ -1,14 +1,14 @@
 import React from "react";
-import _OLD from "lodash-old";
-import _NEW from "lodash";
+import _ from "lodash";
+import _NEW from "lodash-new";
 
 const Home = () => {
   return (
     <div>
       <p>
-        {_OLD.toUpper("fooBar")} lodash version: {_OLD.VERSION}
+        {_.toUpper("fooBar")} lodash version: {_.VERSION}
       </p>
-        <p>
+      <p>
         {_NEW.toUpper("fooBar")} lodash version: {_NEW.VERSION}
       </p>
     </div>
