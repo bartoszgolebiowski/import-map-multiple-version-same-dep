@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Import map lodash & lodash@old</title>
+    <script type="importmap">
+      {
+        "imports": {
+          "react": "https://cdn.skypack.dev/react",
+          "react-dom": "https://cdn.skypack.dev/react-dom",
+          "lodash": "https://cdn.skypack.dev/lodash",
+          "lodash@old": "https://cdn.skypack.dev/lodash@4.17.16"
+        }
+      }
+    </script>
+  </head>
+  <script src="./src/main.tsx" type="module"></script>
+  <body>
+    <div id="root"></div>
+  </body>
+</html>
