@@ -1,1 +1,1 @@
-https://codesandbox.io/s/strange-lederberg-nicz7x
+https://codesandbox.io/p/github/bartoszgolebiowski/import-map-multiple-version-same-dep/draft/loving-khorana
